@@ -1,6 +1,6 @@
 {
     "version": "2.0.4",
-    "description": "Steam workshop downloader.",
+    "description": "Steam workshop downloader, allowing download mods for games you don't own on Steam.",
     "homepage": "https://github.com/imwaitingnow/WorkshopDL",
     "license": "MIT",
     "url": "https://github.com/imwaitingnow/WorkshopDL/releases/download/2.0.4/WorkshopDLv2.0.4.7z",
@@ -8,7 +8,6 @@
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\WorkshopDL.ini\")) {",
         "    Add-Content \"$dir\\WorkshopDL.ini\" '[WorkshopDL]' -Encoding utf8",
-        "    Add-Content \"$dir\\WorkshopDL.ini\" 'Check for updates on startup=1' -Encoding utf8",
         "}"
     ],
     "bin": "WorkshopDL.exe",
@@ -24,6 +23,6 @@
         ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/imwaitingnow/WorkshopDL/releases/download/2.0.4/WorkshopDLv$version.7z"
+        "url": "https://github.com/imwaitingnow/WorkshopDL/releases/download/$version/WorkshopDLv$version.7z"
     }
 }
