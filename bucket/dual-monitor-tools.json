@@ -15,10 +15,10 @@
             "DMT.exe",
             "Dual Monitor Tools"
         ],
-		[
-			"DualWallpaper.exe",
-			"DualWallpaper"
-		]
+        [
+        "DualWallpaper.exe",
+        "DualWallpaper"
+        ]
     ],
     "persist": [
         "DmtMagicWords.xml",
