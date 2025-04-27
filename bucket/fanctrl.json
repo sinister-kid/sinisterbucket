@@ -15,7 +15,11 @@
         "OSD.json",
         "Option.json"
     ],
+<<<<<<< HEAD
 	"bin" : "FanCtrl.exe",
+=======
+    "bin": "FanCtrl.exe",
+>>>>>>> origin/master
     "shortcuts": [
         [
             "FanCtrl.exe",
