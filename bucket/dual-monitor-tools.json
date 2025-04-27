@@ -9,7 +9,7 @@
         "if (-not (Test-Path \"$persist_dir\\DmtMagicWords.xml\")) { New-Item \"$dir\\DmtMagicWords.xml\" -ItemType File | Out-Null }",
         "if (-not (Test-Path \"$persist_dir\\DmtSettings.xml\")) { New-Item \"$dir\\DmtSettings.xml\" -ItemType File | Out-Null }"
     ],
-    "bin": ["DMT.exe", "DualWallpaper.exe" ]
+    "bin": ["DMT.exe", "DualWallpaper.exe" ],
     "shortcuts": [
         [
             "DMT.exe",
