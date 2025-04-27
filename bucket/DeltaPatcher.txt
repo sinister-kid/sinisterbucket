@@ -1,0 +1,27 @@
+{
+    "version": "1.0.1",
+    "description": "Delta Patcher is a GUI software that is able to create and apply xdelta patches.",
+    "homepage": "https://github.com/marco-calautti/DeltaPatcher",
+    "license": "GPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://nukesaq88.github.io/Pngyu/download/Pngyu_win_101.zip",
+            "hash": "8BB79692273E028F9060DE9351489390AE990D2547C7DC218B19D993466D32E5"
+        }
+    },
+	"bin": "DeltaPatcher.exe",
+    "shortcuts": [
+        [
+            "DeltaPatcher.exe",
+            "DeltaPatcher"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/lich426/FanCtrl/releases/download/v$version/windows_bin_x86_64.zip"
+            }
+        }
+    }
+}
