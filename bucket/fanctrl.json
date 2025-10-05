@@ -15,15 +15,14 @@
         "OSD.json",
         "Option.json"
     ],
+    "bin": "FanCtrl.exe",
     "shortcuts": [
         [
             "FanCtrl.exe",
             "FanCtrl"
         ]
     ],
-    "checkver": {
-        "github": "https://github.com/lich426/FanCtrl"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
